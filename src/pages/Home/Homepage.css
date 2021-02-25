@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(53, 48, 48);
+}
+
+#body {
+    background: linear-gradient(to top right, #ebebeb 41%, #5d5b5b 100%);
+}
+
+#main-content {
+    margin-top: 0.5rem;
+    min-height: 100vh;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: ease-in 3s;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: ease 3ss;
+}
+
+#title {
+    transition: 5s ease-in-out;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.site {
+    width: 500px;
+    border-radius: 5%;
+}
+
+.website a {
+    color: rgb(73, 71, 71);
+    font-weight: 650;
+    margin-right: 1rem;
+}
+
+.website a:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+#body {
+    background: linear-gradient(to top right, #ebebeb 41%, #5d5b5b 100%);
+}
+
+.language:hover {
+    transition: 0.3s ease;
+    font-size: 120%;
+    color: black;
+    cursor: default;
+}

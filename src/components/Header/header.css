@@ -1,0 +1,8 @@
+.master a {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.master a:hover {
+    cursor: pointer;
+}
